@@ -15,6 +15,6 @@ class ScalatraBootstrap extends LifeCycle {
   protected implicit val jsonFormats: Formats = DefaultFormats
 
   override def init(context: ServletContext) {
-    context.mount(new $service_name$Servlet(), "/$service_name$/*")
+    context.mount(new $service_name$Servlet(), "/$service_name;format="decap"$/*")
   }
 }

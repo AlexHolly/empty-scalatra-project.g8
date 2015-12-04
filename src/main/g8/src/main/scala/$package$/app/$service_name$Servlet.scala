@@ -16,10 +16,7 @@ class $service_name$Servlet extends ScalatraServlet with ScalateSupport with Jac
     response.headers += ("Access-Control-Allow-Origin" -> "*")
   }
 
-  get("/example1") {
-  }
-
-  put("/example2") {
+  get("/") {
   }
 
 }
