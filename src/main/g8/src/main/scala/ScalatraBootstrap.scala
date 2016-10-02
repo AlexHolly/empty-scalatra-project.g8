@@ -1,6 +1,3 @@
-
-import de.alexholly.util.http.HttpSync
-import de.alexholly.util.IPManager
 import $package$.app.$service_name$Servlet
 
 import org.json4s._
