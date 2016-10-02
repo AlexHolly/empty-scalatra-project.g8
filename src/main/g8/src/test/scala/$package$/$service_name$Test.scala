@@ -1,14 +1,13 @@
 /**
  * Created by alex on 11.11.15.
  */
-
+import de.alexholly.util.JettyServer
 import $package$.logic.$service_name$
 
 import org.json4s.DefaultFormats
 import org.json4s.jackson.JsonMethods._
 import org.scalatest._
 import scala.concurrent.duration._
-import play.api.libs.ws.WSResponse
 import scala.concurrent.ExecutionContext.Implicits.global
 
 class $service_name$Test extends FunSuite with BeforeAndAfter {
