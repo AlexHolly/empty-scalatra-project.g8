@@ -20,8 +20,6 @@ parallelExecution in Test := false
 
 libraryDependencies ++= Seq(
   "org.scalatest"           %% "scalatest"                      % "$scalatest_version$" % "test",
-  "de.alexholly.util"       %% "ip-manager"                     % "0.0.1-SNAPSHOT",
-  "de.alexholly.util"       %% "http-client"                    % "0.0.1-SNAPSHOT",
   "org.scalatra"            %% "scalatra"                       % "$scalatra_version$",
   "org.scalatra"            %% "scalatra-scalate"               % "$scalatra_version$",
   "org.scalatra"            %% "scalatra-json"                  % "$scalatra_version$",
