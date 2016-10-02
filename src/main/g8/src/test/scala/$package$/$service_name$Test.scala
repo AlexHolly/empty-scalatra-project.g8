@@ -2,9 +2,6 @@
  * Created by alex on 11.11.15.
  */
 
-import de.alexholly.util.JettyServer
-import de.alexholly.util.http.HttpAsync
-import de.alexholly.util.http.HttpSync
 import $package$.logic.$service_name$
 
 import org.json4s.DefaultFormats
