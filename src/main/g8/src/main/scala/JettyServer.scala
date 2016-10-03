@@ -63,7 +63,7 @@ case class JettyServer() {
     serverStarted = true
     port = (conf.port)
 
-    println("started jetty on port " + port)
+    println("started jetty on port http://localhost:" + port)
     this
   }
 }
