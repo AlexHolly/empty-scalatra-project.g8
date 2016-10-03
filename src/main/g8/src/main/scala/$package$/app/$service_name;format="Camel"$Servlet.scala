@@ -19,4 +19,12 @@ class $service_name;format="Camel"$Servlet extends ScalatraServlet with ScalateS
   get("/") {
   }
 
+  notFound {
+    contentType="text/html"
+
+    <html>
+      <head><title>Test</title></head>
+      <body>Not Found</body>
+    </html>
+  }
 }
