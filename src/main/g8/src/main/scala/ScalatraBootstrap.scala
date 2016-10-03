@@ -1,4 +1,4 @@
-import $package$.app.$service_name$Servlet
+import $package$.app.$service_name;format="Camel"$Servlet
 
 import org.json4s._
 import org.json4s.native.Serialization.write
@@ -12,6 +12,6 @@ class ScalatraBootstrap extends LifeCycle {
   protected implicit val jsonFormats: Formats = DefaultFormats
 
   override def init(context: ServletContext) {
-    context.mount(new $service_name$Servlet(), "/$service_name;format="decap"$/*")
+    context.mount(new $service_name;format="Camel"$Servlet(), "/$service_name;format="decap"$/*")
   }
 }
