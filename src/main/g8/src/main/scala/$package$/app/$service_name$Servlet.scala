@@ -5,7 +5,7 @@ import org.scalatra._
 import org.scalatra.json.JacksonJsonSupport
 import org.scalatra.scalate.ScalateSupport
 
-class $service_name$Servlet extends ScalatraServlet with ScalateSupport with JacksonJsonSupport {
+class $service_name;format="Camel"$Servlet extends ScalatraServlet with ScalateSupport with JacksonJsonSupport {
 
   protected implicit val jsonFormats: Formats = DefaultFormats
 
