@@ -5,7 +5,7 @@ import org.scalatra._
 import org.scalatra.json.JacksonJsonSupport
 import org.scalatra.scalate.ScalateSupport
 
-object $service_name$ {
+object $service_name;format="Camel"$ {
 
   def reset() {
   
