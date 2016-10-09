@@ -1,11 +1,7 @@
 ## [giter8](http://github.com/n8han/giter8) template for empty Scalatra sbt project
 
 ### uses
-* Scala 2.11.7
-* Scalatest 2.2.4
-* scalatra 2.3.0.RC3
-* json4s 3.2.10
-* jetty 9.2.3.v20140905
+https://github.com/AlexHolly//blob/master/src/main/g8/default.properties
 
 ### predefined sbt plugins (require sbt 0.13.x):
 * sbt-eclipse 4.0.0
