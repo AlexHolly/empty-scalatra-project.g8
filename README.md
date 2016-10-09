@@ -1,7 +1,7 @@
 ## [giter8](http://github.com/n8han/giter8) template for empty Scalatra sbt project
 
 ### uses
-https://github.com/AlexHolly//blob/master/src/main/g8/default.properties
+https://github.com/AlexHolly/empty-scalatra-project.g8/blob/master/src/main/g8/default.properties
 
 ### predefined sbt plugins (require sbt 0.13.x):
 * sbt-eclipse 4.0.0
