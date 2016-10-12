@@ -2,7 +2,7 @@
  * Created by alex on 11.11.15.
  */
 import de.alexholly.util.JettyServer
-import $package$.logic.$service_name$
+import $package$.logic.$service_name;format="Camel"$
 
 import org.json4s.DefaultFormats
 import org.json4s.jackson.JsonMethods._
@@ -25,7 +25,7 @@ class $service_name$Test extends FunSuite with BeforeAndAfter {
   var default_url = "http://localhost:" + server.port
 
   after {
-    $service_name$.reset()
+    $service_name;format="Camel"$.reset()
   }
 
   test("Test 1") {
